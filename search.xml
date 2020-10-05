@@ -3,13 +3,14 @@
   <entry>
     <title>目录</title>
     <url>/2020/10/05/%E7%9B%AE%E5%BD%95%C2%B7/</url>
-    <content><![CDATA[<p><strong>目录</strong><br><a href="https://jeremy2001.github.io/2020/10/05/变量/" target="_blank" rel="noopener">变量</a><br><a href="https://jeremy2001.github.io/2020/10/05/String/" target="_blank" rel="noopener">String</a><br><a href="https://jeremy2001.github.io/2020/10/05/逻辑/" target="_blank" rel="noopener">逻辑</a></p>
+    <content><![CDATA[<p><strong>目录</strong><br><a href="https://jeremy2001.github.io/2020/10/05/变量/" target="_blank" rel="noopener">变量</a><br><a href="https://jeremy2001.github.io/2020/10/05/String/" target="_blank" rel="noopener">String</a><br><a href="https://jeremy2001.github.io/2020/10/05/逻辑/" target="_blank" rel="noopener">逻辑</a><br><a href="https://jeremy2001.github.io/2020/10/05/小细节/" target="_blank" rel="noopener">小细节</a></p>
 ]]></content>
   </entry>
   <entry>
     <title>小细节</title>
     <url>/2020/10/05/%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
     <content><![CDATA[<p>#小细节</p>
+<a id="more"></a>
 <blockquote>
 <p>在设计问答或验证码时，要考虑到用户的大小写区分问题</p>
 </blockquote>
