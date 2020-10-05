@@ -89,4 +89,10 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (x&gt;Y&gt;Z)</span><br><span class="line"><span class="comment">//能运行，但会产生错误</span></span><br><span class="line"><span class="keyword">if</span> ((x&gt;y) &amp;&amp; (y&gt;Z))</span><br><span class="line"><span class="comment">//正确用法</span></span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
+  <entry>
+    <title>目录</title>
+    <url>/2020/10/05/%E7%9B%AE%E5%BD%95%C2%B7/</url>
+    <content><![CDATA[<p><strong>目录</strong><br><a href="https://jeremy2001.github.io/2020/10/05/逻辑/#more" target="_blank" rel="noopener">变量</a><br><a href="https://jeremy2001.github.io/2020/10/05/String/" target="_blank" rel="noopener">String</a><br><a href="https://jeremy2001.github.io/2020/10/05/逻辑/" target="_blank" rel="noopener">逻辑</a></p>
+]]></content>
+  </entry>
 </search>
