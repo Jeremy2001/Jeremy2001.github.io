@@ -122,7 +122,7 @@
 
 
 
-  <title>c++ 笔记 | Blog & Note</title>
+  <title>String | Blog & Note</title>
   
 
 
@@ -273,7 +273,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/10/04/c++%20%E7%AC%94%E8%AE%B0/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/10/05/String/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="JeremyJiao">
@@ -290,7 +290,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">c++ 笔记</h1>
+          <h1 class="post-title" itemprop="name headline">String</h1>
         
 
         <div class="post-meta">
@@ -302,7 +302,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-10-04T23:21:00+08:00">2020-10-04</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-10-05T20:35:00+08:00">2020-10-05</time>
             
 
             
@@ -332,7 +332,7 @@
                 
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
-                <span title="字数统计">4.9k</span>
+                <span title="字数统计">3.8k</span>
               
 
               
@@ -346,7 +346,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">5 mins.</span>
+                <span title="阅读时长">4 mins.</span>
               
             </div>
           
@@ -366,16 +366,9 @@
       
 
       
-        <p>##如何显示出小数点后几位</p>
+        <p>#在string中程序不会是别到用户输入的空格</p>
 <a id="more"></a>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cout</span>.setf(ios::fixed);</span><br><span class="line"><span class="built_in">cout</span>.setf(ios::showpoint);</span><br><span class="line"><span class="built_in">cout</span>.precision(<span class="built_in">point</span>);</span><br></pre></td></tr></table></figure>
-<p>其中<font color = #FF6181>point</font><strong>可替换成数值(代表为小数点后几位)</strong><br> <strong>也可以用变量代替</strong></p>
-<hr>
-<blockquote>
-<p>用c++表示科学计数法<br>e10相当于10的10次方<br>e-6相当于10的-6次方    </p>
-</blockquote>
-<hr>
-<p>#在string中程序不会是别到用户输入的空格</p>
+
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">string</span> name;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">"please name this group of dogs.\n"</span>;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt; name;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">"the name is"</span>&lt;&lt;name&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>若是输入含有空格的字符</strong><br>例如: Mr. Jeremy<br><strong>则系统识别出来的将会是</strong><br>Mr.<br>因此需要拆分出两个名称进行组合<br>其中空格部分以<font color=red>“ “</font>表示</p>
@@ -385,14 +378,10 @@
 <p>避免将double类型于int类型混淆</p>
 </blockquote>
 <hr>
-<p>#int类型及double</p>
-<blockquote>
-<p>例子<br>7，2均为int类型，然而<strong>当<font color =red>7/2/</font>时，其输出的数据类型属于double</strong><br>*<font color = blue>若要改为double值，需将7或2变为7.0或2.0</font>*<br>// 为何不将所有变量都以double来表示，而不是int，除了因为容器字节大小。<br><strong>使用%时系统会只获得运算结果的整数部分。系统不会判断四舍五入，而是直接舍弃小数点后部分，保留整数。</strong></p>
-</blockquote>
-<hr>
 <p>#string类型<br><font color = red>string只能定义字符串</font></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">stiring a,b,c;</span><br><span class="line">month = <span class="string">"03"</span>;</span><br><span class="line">day = <span class="string">"04"</span>;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt; month + day&lt;&lt;<span class="built_in">endl</span>;</span><br></pre></td></tr></table></figure>
 <p>其输出结果为0304</p>
+<hr>
 
       
     </div>
@@ -417,14 +406,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2020/10/04/c++%20%E7%AC%94%E8%AE%B0/" rel="next" title="c++ 笔记">
+                <i class="fa fa-chevron-left"></i> c++ 笔记
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/10/05/String/" rel="prev" title="String">
-                String <i class="fa fa-chevron-right"></i>
+              <a href="/2020/10/05/%E5%8F%98%E9%87%8F/" rel="prev" title="变量">
+                变量 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
