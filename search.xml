@@ -44,20 +44,6 @@
       </categories>
   </entry>
   <entry>
-    <title>小细节</title>
-    <url>/Blog%20&amp;%20Note/2020/10/05/%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
-    <content><![CDATA[<p>#小细节</p>
-<a id="more"></a>
-<blockquote>
-<p>在设计问答或验证码时，要考虑到用户的大小写区分问题</p>
-</blockquote>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> item;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt; <span class="string">"hello\n"</span>;</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Do you agree the agreement?\n"</span>;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt; item;</span><br><span class="line">        </span><br><span class="line">    &#125;<span class="keyword">while</span> (item == <span class="string">'y'</span> || item == <span class="string">'Y'</span>);</span><br><span class="line">     <span class="comment">//此处为考虑大小写</span></span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"good-bye\n"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-  </entry>
-  <entry>
     <title>目录</title>
     <url>/Blog%20&amp;%20Note/2020/10/05/%E7%9B%AE%E5%BD%95%C2%B7/</url>
     <content><![CDATA[<p><strong>目录</strong><br><a href="https://jeremy2001.github.io/2020/10/05/变量/">变量</a><br><a href="https://jeremy2001.github.io/2020/10/05/String/">String</a><br><a href="https://jeremy2001.github.io/2020/10/05/逻辑/">逻辑</a><br><a href="https://jeremy2001.github.io/2020/10/05/小细节/">小细节</a></p>
@@ -81,6 +67,20 @@
 <p>陷阱<br>不能使用</p>
 </blockquote>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (x&gt;Y&gt;Z)</span><br><span class="line"><span class="comment">//能运行，但会产生错误</span></span><br><span class="line"><span class="keyword">if</span> ((x&gt;y) &amp;&amp; (y&gt;Z))</span><br><span class="line"><span class="comment">//正确用法</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>小细节</title>
+    <url>/Blog%20&amp;%20Note/2020/10/05/%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
+    <content><![CDATA[<p>#小细节</p>
+<a id="more"></a>
+<blockquote>
+<p>在设计问答或验证码时，要考虑到用户的大小写区分问题</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> item;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt; <span class="string">"hello\n"</span>;</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Do you agree the agreement?\n"</span>;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt; item;</span><br><span class="line">        </span><br><span class="line">    &#125;<span class="keyword">while</span> (item == <span class="string">'y'</span> || item == <span class="string">'Y'</span>);</span><br><span class="line">     <span class="comment">//此处为考虑大小写</span></span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"good-bye\n"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>C++</category>
