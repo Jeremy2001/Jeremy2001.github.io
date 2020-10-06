@@ -2,13 +2,13 @@
 <search>
   <entry>
     <title>目录</title>
-    <url>/2020/10/05/%E7%9B%AE%E5%BD%95%C2%B7/</url>
+    <url>/Blog%20&amp;%20Note/2020/10/05/%E7%9B%AE%E5%BD%95%C2%B7/</url>
     <content><![CDATA[<p><strong>目录</strong><br><a href="https://jeremy2001.github.io/2020/10/05/变量/" target="_blank" rel="noopener">变量</a><br><a href="https://jeremy2001.github.io/2020/10/05/String/" target="_blank" rel="noopener">String</a><br><a href="https://jeremy2001.github.io/2020/10/05/逻辑/" target="_blank" rel="noopener">逻辑</a><br><a href="https://jeremy2001.github.io/2020/10/05/小细节/" target="_blank" rel="noopener">小细节</a></p>
 ]]></content>
   </entry>
   <entry>
     <title>小细节</title>
-    <url>/2020/10/05/%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
+    <url>/Blog%20&amp;%20Note/2020/10/05/%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
     <content><![CDATA[<p>#小细节</p>
 <a id="more"></a>
 <blockquote>
@@ -22,7 +22,7 @@
   </entry>
   <entry>
     <title>逻辑</title>
-    <url>/2020/10/05/%E9%80%BB%E8%BE%91/</url>
+    <url>/Blog%20&amp;%20Note/2020/10/05/%E9%80%BB%E8%BE%91/</url>
     <content><![CDATA[<p>#逻辑</p>
 <a id="more"></a>
 
@@ -45,7 +45,7 @@
   </entry>
   <entry>
     <title>变量</title>
-    <url>/2020/10/05/%E5%8F%98%E9%87%8F/</url>
+    <url>/Blog%20&amp;%20Note/2020/10/05/%E5%8F%98%E9%87%8F/</url>
     <content><![CDATA[<p>##如何显示出小数点后几位</p>
 <a id="more"></a>
 
@@ -64,7 +64,7 @@
   </entry>
   <entry>
     <title>String</title>
-    <url>/2020/10/05/String/</url>
+    <url>/Blog%20&amp;%20Note/2020/10/05/String/</url>
     <content><![CDATA[<p>#在string中程序不会识别到用户输入的空格</p>
 <a id="more"></a>
 
